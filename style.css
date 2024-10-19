@@ -1,0 +1,77 @@
+
+.Left{
+    width: 50%;
+    height: 1000px;
+    float: right;
+}
+
+.vic{
+    width:11%;
+    height: 90px;
+}
+
+.first{
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    justify-content: center;
+}
+.title{
+    font-family: times new roman;
+    color: rgb(0, 61, 165);
+}
+section{
+    text-align: center;
+    font-family: times new roman;
+}
+.container {  
+    width: 300px;                /* Set a width for the container */  
+    height: 100px;               /* Set a height, if needed */  
+    display: flex;               /* Enable Flexbox */  
+    justify-content: center;      /* Center horizontally */  
+    align-items: center;          /* Center vertically */  
+    margin: 0 auto;              /* Center container itself on the page */  
+}  
+
+label {  
+    text-align: center;          /* Optional: Center text inside label */  
+}
+.log{
+    font-size: 25px;
+    color:rgb(0, 61, 165);
+    margin-bottom: 0px;
+}
+.carre{
+    width: 350px;
+    height: 30px; 
+    border-color: #9dc0e9; /* Darker blue border on focus */  
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Blue shadow on focus */
+    border-radius: 5px;
+}
+input, textarea{
+    outline:none;
+}
+
+input:focus, textarea:focus{
+    box-shadow: 0 0 9px rgb(133, 225, 231) ;
+    border: 1px solid #75ccf5
+    
+}
+.d{
+    display: flex;
+    margin-left: 290px;
+}
+
+
+.last{
+    text-align: right;
+    width: 760px;
+    align-items: center;
+    line-height: 0px;
+}
+
+.p{
+    background-color: rgb(44, 44, 117);
+    font-size: 20px;
+    border-radius: 5px;
+}
